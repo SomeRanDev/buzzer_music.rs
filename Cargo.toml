@@ -1,0 +1,10 @@
+[package]
+name = "buzzer_music"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+buzzer_music_macros = { path = "./macros" }
+arrayvec = { version = "0.7.6", default-features = false }
+crabtime = { version = "1.1.4", default-features = false }
+embassy-rp = { version = "0.9.0", default-features = false }
